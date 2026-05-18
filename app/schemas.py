@@ -89,7 +89,3 @@ class UserStatisticsResponse(BaseModel):
     user_id: int
     aggregated_stats: AggregatedAxesStats 
     devices_stats: List[DeviceStatisticsResponse] = Field(default_factory=list)
-
-
-
-

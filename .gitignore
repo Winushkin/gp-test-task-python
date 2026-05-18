@@ -3,3 +3,7 @@ postgres_data/
 .env.local
 .DS_Store
 .vscode/
+
+__pycache__/
+*.py[cod]
+*$py.class
